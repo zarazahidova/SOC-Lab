@@ -1,0 +1,16 @@
+# secrets
+.env
+*.pem
+*.key
+*.crt
+*.p12
+*password*
+*secret*
+
+# Wazuh docker clone and generated certs
+wazuh-docker/
+config/wazuh_indexer_ssl_certs/
+
+# OS junk
+.DS_Store
+Thumbs.db
